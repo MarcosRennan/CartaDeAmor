@@ -46,7 +46,7 @@ function notes_ready() {
           }
           this.classList.add("active");
           gsap.set(this, {
-            height: 190 + 20 * i + "%",
+            height: 160 + 20 * i + "%",
           });
         }
       } else if (tablet_media_query.matches) {
