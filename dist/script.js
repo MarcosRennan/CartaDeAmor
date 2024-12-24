@@ -46,7 +46,7 @@ function notes_ready() {
           }
           this.classList.add("active");
           gsap.set(this, {
-            height: 160 + 20 * i + "%",
+            height: 140 + 40 * i + "%",
           });
         }
       } else if (tablet_media_query.matches) {
@@ -68,7 +68,7 @@ function notes_ready() {
           }
           this.classList.add("active");
           gsap.set(this, {
-            height: 120 + 35 * i + "%",
+            height: 100 + 21 * i + "%",
           });
         }
       } else {
@@ -90,7 +90,7 @@ function notes_ready() {
           }
           this.classList.add("active");
           gsap.set(this, {
-            height: 170 + 50 * i + "%",
+            height: 90 + 20 * i + "%",
           });
         }
       }
